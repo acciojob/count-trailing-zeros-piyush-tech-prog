@@ -1,12 +1,12 @@
 function trailingZeros(n) {
-	parseInt(n)
-	if(isNan(n) || !n){
+	let num = parseInt(n)
+	if(isNan(num) || !num){
 		alert("Enter A valid Number")
 		return
 	}
   let zeros=0
-	for (let index = 5; index <=n; index*=5) {
-		zeros+=Math.floor(n/i)
+	for (let index = 5; index <=num; index*=5) {
+		zeros+=Math.floor(num/i)
 	}
 	return zeros
 }
