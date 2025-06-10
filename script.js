@@ -1,4 +1,5 @@
 function trailingZeros(n) {
+	parseInt(n)
 	if(isNan(n) || !n){
 		alert("Enter A valid Number")
 		return
