@@ -11,5 +11,5 @@ function trailingZeros(n) {
 	return zeros
 }
 
-// const input = prompt("Enter a number");
+const input = prompt("Enter a number");
 alert(trailingZeros(input));
